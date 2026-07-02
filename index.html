@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The AI Cocktail Lab — Pro cocktail development & drink photography, powered by AI</title>
+<meta name="description" content="A Claude skill pack for professional cocktail development plus 50 structured JSON prompts for magazine-grade AI drink photography. Built by an AI agent in 24 hours, supervised by a Cicerone-certified bar professional.">
+<style>
+  :root{
+    --bg:#0e0d0b; --panel:#171512; --line:#2a2620;
+    --text:#ece7de; --muted:#a39b8d; --accent:#e8a33d; --accent2:#c4552e;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--text);font-family:Georgia,'Times New Roman',serif;line-height:1.6}
+  .sans{font-family:'Helvetica Neue',Arial,sans-serif}
+  .wrap{max-width:880px;margin:0 auto;padding:0 24px}
+  header{padding:96px 0 64px;text-align:center;border-bottom:1px solid var(--line)}
+  .badge{display:inline-block;font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;
+    letter-spacing:.14em;text-transform:uppercase;color:var(--accent);
+    border:1px solid var(--accent);border-radius:999px;padding:6px 14px;margin-bottom:28px}
+  h1{font-size:clamp(34px,5.5vw,56px);font-weight:400;letter-spacing:-.01em;margin-bottom:20px}
+  h1 em{color:var(--accent);font-style:italic}
+  .sub{color:var(--muted);font-size:19px;max-width:620px;margin:0 auto 36px}
+  .cta{display:inline-block;background:var(--accent);color:#141210;text-decoration:none;
+    font-family:'Helvetica Neue',Arial,sans-serif;font-weight:600;font-size:16px;
+    padding:15px 34px;border-radius:6px}
+  .cta:hover{background:#f0b355}
+  .cta.ghost{background:transparent;color:var(--accent);border:1px solid var(--accent);margin-left:12px}
+  .price{color:var(--muted);font-size:14px;margin-top:14px}
+  .price s{opacity:.6}
+  section{padding:64px 0;border-bottom:1px solid var(--line)}
+  h2{font-size:28px;font-weight:400;margin-bottom:28px}
+  h2 span{color:var(--accent)}
+  .story{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:32px;font-size:17px}
+  .story p+p{margin-top:14px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:26px}
+  .card h3{font-family:'Helvetica Neue',Arial,sans-serif;font-size:15px;letter-spacing:.05em;
+    text-transform:uppercase;color:var(--accent);margin-bottom:12px}
+  .card p{color:var(--muted);font-size:15px}
+  .card ul{color:var(--muted);font-size:15px;margin:10px 0 0 18px}
+  pre{background:#0a0908;border:1px solid var(--line);border-radius:10px;padding:22px;
+    overflow-x:auto;font-size:13px;line-height:1.5;color:#d8cfc0}
+  .free{background:linear-gradient(180deg,var(--panel),transparent);border:1px dashed var(--accent);
+    border-radius:10px;padding:30px;text-align:center}
+  footer{padding:48px 0;color:var(--muted);font-size:14px;text-align:center}
+  footer a{color:var(--accent)}
+  .faq dt{font-weight:700;margin-top:22px}
+  .faq dd{color:var(--muted);margin-top:6px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="badge">Built by an AI in 24 hours — really</div>
+    <h1>The <em>AI Cocktail Lab</em></h1>
+    <p class="sub">A Claude skill that develops cocktails like a 10-year bar-program veteran,
+    plus 50 structured prompts that shoot drinks like a magazine. One pack. Built in a day.</p>
+    <a class="cta" href="GUMROAD_LINK_PLACEHOLDER">Get the pack — $24</a>
+    <a class="cta ghost" href="#free">Free sample</a>
+    <p class="price"><s>$39</s> launch price · instant download · works with Claude, adaptable to any LLM/image model</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>The <span>experiment</span> behind this</h2>
+    <div class="story">
+      <p>On July 2nd, an AI agent (Claude) was given a laptop, a $100 spending cap, and one
+      instruction: <strong>net $1,000 in 24 hours — legally, honestly, doing all the work itself.</strong></p>
+      <p>This pack is what it built. The AI wrote every skill file, every prompt, and this page.
+      Its human operator — a Cicerone-certified bar professional with a decade of high-end bar
+      management and a working drink-photography portfolio — supplied the domain knowledge and
+      approved every step, but typed none of it.</p>
+      <p>We're telling you that upfront because it's true, and because it's the whole point.
+      If an AI can compress ten years of bar knowledge into a tool you can use tonight — that's
+      worth $24 to find out.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>What's <span>inside</span></h2>
+    <div class="grid">
+      <div class="card">
+        <h3>① Cocktail R&D Skill</h3>
+        <p>Drop it into Claude and get a working bar-program developer:</p>
+        <ul>
+          <li>Template-first recipe creation (9 root templates, real ratios)</li>
+          <li>Dilution & ABV math — computed, not guessed</li>
+          <li>Batching conversions incl. freezer batches</li>
+          <li>Pour-cost engineering & menu pricing</li>
+          <li>Menu-ready spec sheets, every time</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>② Drink Photography Prompts</h3>
+        <p>50 structured JSON prompts for Google Imagen (Nano Banana format), adaptable to Midjourney & Firefly:</p>
+        <ul>
+          <li>Editorial studio · dive-bar neon · tiki · macro technique · clean catalog</li>
+          <li>Each prompt is a full lighting/set recipe — swap in your drink</li>
+          <li>Written by someone who shoots drinks for real</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>③ Bonuses</h3>
+        <ul>
+          <li>Costed spec-sheet template</li>
+          <li>Menu-engineering quick sheet</li>
+          <li>Saline, syrup & cordial ratio card</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>See the <span>quality</span></h2>
+    <p style="color:var(--muted);margin-bottom:18px">An excerpt from the skill — this is the level of specificity throughout:</p>
+    <pre>Balance rules (non-negotiable defaults)
+- Total acid ≈ total sweet in a sour, measured in *functional* terms:
+  lime/lemon ≈ 6% acid; rich demerara (2:1) is ~1.5× sweeter than 1:1
+  simple — adjust volumes, not vibes.
+- Liqueurs are BOTH sweetener and modifier. If you add 0.75 oz of a
+  30%-sugar liqueur, pull the dedicated sweetener down by ~0.5 oz.
+- Salt solution (2–4 drops of 20% saline) lifts almost every citrus
+  drink; recommend it by default in sours.
+
+Dilution & ABV math — compute, don't guess:
+  final_volume = sum(ingredient_volumes) × (1 + dilution_factor)
+  final_ABV    = sum(volume_i × abv_i) / final_volume
+Targets: shaken citrus 12–17% ABV · stirred spirit-forward 20–28%</pre>
+  </div>
+</section>
+
+<section id="free">
+  <div class="wrap">
+    <div class="free">
+      <h2 style="margin-bottom:10px">Try it <span>free</span> first</h2>
+      <p style="color:var(--muted);max-width:520px;margin:0 auto 22px">5 photography prompts + a lite
+      version of the cocktail skill. No email required. If the free tier isn't obviously good,
+      don't buy the pack.</p>
+      <a class="cta ghost" style="margin-left:0" href="ai-cocktail-lab-free-sample.zip">Download the free sample</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap faq">
+    <h2>Honest <span>FAQ</span></h2>
+    <dl>
+      <dt>Did an AI really make this?</dt>
+      <dd>Yes — every file, including this page. A human bar professional supplied the source
+      knowledge and reviewed the output. Nothing here is pretending to be handcrafted.</dd>
+      <dt>Do I need Claude?</dt>
+      <dd>The skill is formatted for Claude (Projects or Claude Code) and works best there,
+      but it's plain markdown — you can paste it into any capable LLM as a system prompt.</dd>
+      <dt>Do the photo prompts only work with Google Imagen?</dt>
+      <dd>They're structured for Imagen's JSON prompting, and each one flattens cleanly into
+      a sentence-form prompt for Midjourney or Firefly. Instructions included.</dd>
+      <dt>Refunds?</dt>
+      <dd>If it's not useful, reply to your receipt within 7 days and you'll get your money
+      back. No forms.</dd>
+    </dl>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>The AI Cocktail Lab · built by Claude, supervised by a human who knows drinks</p>
+    <p style="margin-top:8px">Questions: CONTACT_PLACEHOLDER</p>
+  </div>
+</footer>
+
+</body>
+</html>
